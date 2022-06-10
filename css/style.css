@@ -1,0 +1,308 @@
+body {
+	--logo-web-color: #2196f3;
+}
+
+body {
+	font-family: 'Roboto';
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* header */
+
+.header {
+	height: 80px;
+}
+
+.header,
+.header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo-web {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: var(--logo-web-color);
+}
+
+.logo-studio {
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+
+.header li {
+	margin: 0px 25px;
+}
+
+.header-nav {
+	display: flex;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+}
+
+.header-nav a {
+	color: #212121;
+}
+
+.header-nav a:hover {
+	color: #2196f3;
+}
+
+.header-contacts {
+	display: flex;
+}
+
+.header-contacts a {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #757575;
+}
+
+.header-contacts a:hover {
+	color: #2196f3;
+}
+
+/* end header */
+
+/* solution */
+
+.main-solution {
+	height: 600px;
+	background-color: #2f303a;
+	text-align: center;
+}
+
+.main-solution-text {
+	margin: 0;
+	padding-top: 200px;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+}
+
+.main-solution button {
+	margin-top: 30px;
+	padding: 10px 30px;
+	background: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+}
+
+/* end solution */
+
+/* features */
+
+h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.features ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.features ul li {
+	margin: 0px 15px;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+/* end features */
+
+/* we do */
+
+.we-do {
+	margin-top: 90px;
+}
+
+.we-do ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* end we do */
+
+/* team */
+
+.team {
+	margin-top: 180px;
+}
+
+.team ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.team ul li {
+	background: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	text-align: center;
+}
+
+.team ul li h3 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.team ul li p {
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+/* end team */
+
+/* footer */
+
+.footer {
+	padding: 60px 0px 30px 215px;
+	background: #2f303a;
+}
+
+.footer .logo-web {
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+}
+
+.footer .logo-studio {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	color: #ffffff;
+}
+
+.address {
+	padding: 0;
+}
+
+.address li p {
+	font-style: normal;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+}
+
+.address li a {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 40px;
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.address li a:hover {
+	color: #2196f3;
+}
+
+/* end footer */
+
+/* main filters */
+
+.main-filters {
+	padding: 90px 215px;
+}
+
+.main-filters div {
+	text-align: center;
+}
+
+.main-filters button:hover {
+	background: #2196f3;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+		0px 2px 2px rgba(0, 0, 0, 0.12);
+	color: #ffffff;
+}
+
+.main-filters button {
+	background: #f5f4fa;
+	border-radius: 4px;
+	margin: 5px 20px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.main-filters ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-filters ul li {
+	background: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	text-align: center;
+	margin: 15px;
+}
+
+.main-filters ul li h3 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+
+.main-filters ul li p {
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+/* end main filters */
